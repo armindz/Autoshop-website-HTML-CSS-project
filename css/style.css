@@ -1,0 +1,537 @@
+/* reset to its default */
+* {
+
+	margin:0px;
+	padding:0px;
+}
+/* define body value */
+body {
+	 background-image: url(../img/background/pozadina.png) ;
+	 background-repeat: repeat;
+
+	
+}
+/* set h1 & p default values */
+h1, p {
+
+	font-family: Bubbler One;
+	color:silver;
+}
+
+/* NAVIGATION BAR  */
+.navBar {
+	
+	text-align:left;
+	background-color:#333;
+	margin-left:15px;
+	border-bottom:2px powderblue solid;
+	padding:12px 20px;
+	
+}
+/* set navigation bar sections values */
+.navBar a img {
+
+	max-width:1.3%;
+}
+
+.navBar a img:hover {
+	opacity:0.5;
+	transition:200ms ease;
+}
+.navBar a {
+	text-shadow:  2px 2px rgba(75,75,75,0.5);
+	text-decoration: none;
+	max-width:80%;
+	padding:5px 25px;
+	font-size:1vw;
+	/*border-right: 2px powderblue dotted;*/
+	text-decoration: none;
+	color:white;
+	background-color:#333;
+	font-family: Bubbler One, Palatino, Arial, Tahoma;
+	text-align:left;
+	color: #CDCECE;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background-position: right;
+}
+
+a:hover {
+
+	color:powderblue;
+	opacity:0.5;
+	transition: all 500ms ease; 
+}
+
+a:active {
+
+	color:white;
+}
+
+/* logo on navigation bar */
+#logo {
+	float:left;
+	max-width:20%;
+	padding:4px 20px;
+}
+
+#logo:hover {
+	opacity:0.5;
+	transition: 200ms ease;
+}
+
+/* container at homepage */
+.homecontainer .homecontainer1 {
+
+	text-align:center;
+}
+.homecontainer {
+ 	position: relative;
+	
+	
+}
+.homecontainer img {
+ 	max-width: 100%;
+  	height: auto;
+	box-sizing: border-box;
+	max-width:100%;
+	text-align:center;
+
+}
+
+/* text on homepage container */
+.textonimage {
+	margin:auto;
+  position:absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.textonimage h2 {
+
+	text-align:center;
+	color:powderblue;
+	font-family: Verdana;
+	font-weight:300;
+	padding-bottom: 40px;
+}
+
+.textonimage p {
+
+	text-align:center;
+	font-family:Bubbler One;
+}
+ 
+ /* download button on homepage container */
+.downloadbuttonhomepage {
+
+	position:absolute;
+	top:150%;
+	left:10%;
+	box-shadow: 2px 2px rgba(75,75,75,0.1);
+	border-radius:6px;
+	max-width:25%;
+	height:45%;
+	background-color:rgba(122,188,208,0.8);
+	color:#333;
+	margin:auto;
+	padding:5px ;
+	text-align:center;
+	font-family:Bubbler One ,Arial ;
+	font-weight:600;
+	font-size:15px;
+
+}
+
+
+.downloadbuttonhomepage:hover {
+	
+	background-color: rgba(122,188,208,0.3);
+	color:silver;
+	transition: all 500ms ease; 
+
+}
+
+
+/* manual button on homepage container */
+.manualbuttonhomepage {
+
+	position:absolute;
+	top:150%;
+	left:60%;
+	box-shadow: 2px 2px rgba(75,75,75,0.1);
+	border-radius:6px;
+	max-width:25%;
+	height:45%;
+	background-color: rgba(0,0,0,0.2);
+	color: silver;
+	margin:auto;
+	padding:5px ;
+	text-align:center;
+	font-family:Bubbler One ,Arial ;
+	font-weight:600;
+	font-size:15px;
+
+}
+
+.manualbuttonhomepage:hover {
+
+	background-color: rgba(0,0,0,0.5);
+	color:grey;
+	transition: all 500ms ease;
+
+}
+
+/* container at contact section */
+.container1 {
+
+	max-width:50%;
+	position:center;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: 3px #333 dotted;
+	border-radius:10px;
+	padding:auto;
+/*	padding: 100px 50px 150px 50px;*/
+	background-color:rgba(50,50,50,0.4);
+	box-sizing: border-box;
+
+}
+
+
+.container1 h1 {
+
+	font-family: Bubbler One;
+	font-weight: 700;
+	margin: 30px 5px 40px 0px;
+	text-align:center;
+	padding:0px 0px 20px 0px;
+	color: silver;
+}
+
+.container1 h2 {
+
+	color:powderblue;
+	text-align:center;
+	font-family:Bubbler One;
+	font-weight:300;
+}
+
+.container1 p {
+	font-family: Bubbler One;
+	text-align:center;
+	color:silver;
+	padding:20px 50px;
+}
+
+/* contact form at contact section */
+.my-form {
+
+	padding:20px;
+	color:silver;
+	text-align: center;
+
+}
+
+.my-form .form-group{
+
+	padding-bottom:15px;
+}
+
+.my-form input[type=text], .my-form textarea {
+	box-shadow:2px 2px #333;
+	border-radius:8px;
+	padding:8px;
+	width:55%;
+	background-color: rgba(150,150,150,0.4);
+}
+
+.my-form label {
+	font-family: Bubbler One,  Palatino, Arial, Tahoma;
+	padding-bottom:5px;
+	font-size:20px;
+	font-weight:200;
+}
+/* submit button at contact section */
+.my-form .button {
+	box-shadow: 2px 2px rgba(75,75,75,0.1);
+	border-radius:6px;
+	background-color: rgba(150,150,150,0.1);
+	max-width:10%;
+	background-color:powderblue;
+	color:#333;
+	padding:5px ;
+	text-align:center;
+	font-family:Bubbler One ,Arial ;
+	font-weight:600;
+	font-size:17px;
+
+}
+
+.my-form .button:hover {
+	background-color:grey;
+	color:white;
+	transition: all 500ms ease; 
+}
+
+/* social media links and icons at contact section */
+.socialmedia p {
+
+	color:silver;
+	font-family:Bubbler One;
+	font-weight:300;
+	font-size:18px;
+	text-align:center;
+	padding:15px ;
+	
+		
+}
+
+.socialmedia {
+
+	
+	max-width:85%;
+	margin: 50px 50px;
+
+}
+
+
+.socialmedia .insta img {
+
+
+	float:left;
+	max-width:10%;
+	height:auto;
+	margin-left: 35%;
+
+	
+}
+
+.socialmedia .insta img:hover {
+
+opacity:0.5;
+transition:300ms ease;
+
+	
+}
+
+
+.socialmedia .fb img {
+
+ max-width:10%;
+ height:auto;
+
+
+
+}
+
+.socialmedia .fb img:hover {
+
+	opacity:0.5;
+	transition:300ms ease;
+}
+
+
+.socialmedia .linkedin img {
+
+
+	max-width:10%;
+	height:auto;
+	
+}
+
+.socialmedia .linkedin img:hover {
+
+	opacity:0.5;
+	transition: 300ms ease;
+}
+
+/* footer values */
+footer {
+
+	  
+    bottom: 0; 
+    max-width: 100%; 
+	border-top:2px powderblue solid;
+	padding-top:15px;
+	padding-bottom: 5px;
+	background-color: #111111;
+
+}
+
+footer p  {
+	padding-top:5px;
+	padding-left:25px;
+	font-family:serif; 
+	font-style: italic;
+	color:silver;
+	font-weight:100;
+}
+
+footer a {
+	color:silver;
+	text-decoration: none;
+	padding-left:25px;
+	font-family:serif; 
+	font-style: italic;
+}
+
+footer .author {
+
+	color:silver;
+	text-align:center;
+	padding-top:20px;
+	font-size:10px;
+}
+
+/* location icon */
+.location {
+	padding:10px 15px;
+}
+.location img {
+	padding : 25px ;
+		float:left;
+		max-width:1%;
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+}
+/* phone icon */
+.phone {
+	padding: 10px 15px;
+}
+
+.phone p {
+	font-size:14px;
+}
+.phone img {
+		padding:5px 25px;
+		float:left;
+		max-width:1%;
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+
+}
+/* mail icon */
+.mail {
+	padding:10px 40px;
+}
+
+.mail a{
+	font-family: Verdana;
+	font-size:14px;
+}
+.mail img {
+		
+		float:left;
+		max-width:1%;
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+
+}
+
+/* warning page under construction */
+.underconstruction h1 {
+
+	text-align:center;
+	padding:30px;
+	font-family: Bubbler One;
+}
+
+.underconstruction img {
+
+	max-width:10%;
+	position:relative;
+	left:38.5%;
+	padding:70px;
+	padding-top:150px;
+}
+
+
+/* download section */
+.section1 {
+
+	margin:5%;
+}
+
+.section1 h2 {
+
+	text-align:center;
+	color:powderblue;
+	font-family:Bubbler One;
+	padding: 10px;
+}
+
+.section1 p {
+	text-align:center;
+	color:silver;
+	font-family: Bubbler One;
+	padding: 30px;
+
+}
+
+/* containers at download section */
+.downloadcontainer1 {
+
+	box-shadow: 4px 4px;
+	border-radius:10px;
+	float:left;
+	margin: 25px;
+	padding: 25px;
+	max-width:200px;
+	height:150px;
+	background-color:rgba(75,75,75,0.3);
+
+	/*background: rgb(89,89,89);
+	background: radial-gradient(circle, rgba(89,89,89,0.7518382352941176) 0%, rgba(0,0,0,0.6160916289592759) 100%);
+	border:1.5px black dotted;*/
+}
+
+.downloadcontainer1 img {
+
+	border-radius:10px;
+	border:3px #333 inset;
+	margin:10px;
+	width:150px;
+	height:70px;
+	padding:10px;
+}
+
+
+.downloadbuttoncontainer1 {
+
+	position:relative;
+	left:25%;
+	box-shadow: 2px 2px rgba(75,75,75,0.1);
+	border-radius:6px;
+	max-width:90px;
+	height:40px;
+	background-color:rgba(122,188,208,0.8);
+	color:#333;
+	padding:5px ;
+	text-align:center;
+	font-family: Bubbler One ,Arial ;
+	font-weight:600;
+	font-size:15px;
+
+}
+
+
+
+.downloadbuttoncontainer1:hover {
+
+
+background-color: rgba(122,188,208,0.3);
+	color:silver;
+	transition: all 500ms ease; 
+
+}
+
+/* set float to its default value */ 
+.fixfloating {
+
+	float:none;
+	clear:both;
+}
