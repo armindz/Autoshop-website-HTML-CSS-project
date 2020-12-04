@@ -1,4 +1,4 @@
-/* reset to its default */
+vvv/* reset to its default */
 * {
 
 	margin:0px;
@@ -17,6 +17,29 @@ h1, p {
 	font-family: Bubbler One;
 	color:silver;
 }
+
+
+@keyframes fadeIn {
+
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.animationfadeIn {
+
+	animation-name:fadeIn;
+	animation-duration: 0.5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+}
+
+
 
 /* NAVIGATION BAR  */
 .navBar {
@@ -107,6 +130,7 @@ a:active {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
+
 }
 
 .textonimage h2 {
@@ -116,12 +140,14 @@ a:active {
 	font-family: Verdana;
 	font-weight:300;
 	padding-bottom: 40px;
+	
 }
 
 .textonimage p {
 
 	text-align:center;
 	font-family:Bubbler One;
+	
 }
  
  /* download button on homepage container */
@@ -453,7 +479,8 @@ footer .author {
 /* download section */
 .section1 {
 
-	margin:5%;
+	margin:4%;
+
 }
 
 .section1 h2 {
@@ -477,7 +504,7 @@ footer .author {
 
 	box-shadow: 4px 4px;
 	border-radius:10px;
-	float:left;
+	float: left ;
 	margin: 25px;
 	padding: 25px;
 	max-width:200px;
@@ -523,7 +550,7 @@ footer .author {
 .downloadbuttoncontainer1:hover {
 
 
-background-color: rgba(122,188,208,0.3);
+	background-color: rgba(122,188,208,0.3);
 	color:silver;
 	transition: all 500ms ease; 
 
