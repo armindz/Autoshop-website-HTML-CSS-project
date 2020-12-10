@@ -14,7 +14,7 @@ body {
 /* set h1 & p default values */
 h1, p {
 
-	font-family: Bubbler One;
+	font-family: Bubbler One, Arial;
 	color:silver;
 }
 
@@ -49,6 +49,7 @@ h1, p {
 	margin-left:15px;
 	border-bottom:2px powderblue solid;
 	padding:12px 20px;
+
 	
 }
 /* set navigation bar sections values */
@@ -93,6 +94,7 @@ a:active {
 
 /* logo on navigation bar */
 #logo {
+
 	float:left;
 	max-width:20%;
 	padding:4px 20px;
@@ -104,12 +106,14 @@ a:active {
 }
 
 /* container at homepage */
-.homecontainer .homecontainer1 {
-
+.homecontainer  {
+    
 	text-align:center;
+	max-width: 100%
 }
 .homecontainer {
  	position: relative;
+ 	max-width: 100%;
 	
 	
 }
@@ -124,12 +128,16 @@ a:active {
 
 /* text on homepage container */
 .textonimage {
+
+
 	margin:auto;
   position:absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
+
+
 
 }
 
@@ -139,14 +147,15 @@ a:active {
 	color:powderblue;
 	font-family: Verdana;
 	font-weight:300;
-	padding-bottom: 40px;
+
+	padding-bottom: 7%;
 	
 }
 
 .textonimage p {
 
 	text-align:center;
-	font-family:Bubbler One;
+	font-family:Bubbler One, Arial;
 	
 }
  
@@ -205,7 +214,7 @@ a:active {
 .manualbuttonhomepage:hover {
 
 	background-color: rgba(0,0,0,0.5);
-	color:grey;
+	color:silver;
 	transition: all 500ms ease;
 
 }
@@ -530,18 +539,18 @@ footer .author {
 .downloadbuttoncontainer1 {
 
 	position:relative;
-	left:25%;
+	left:30%;
 	box-shadow: 2px 2px rgba(75,75,75,0.1);
 	border-radius:6px;
-	max-width:90px;
-	height:40px;
+	max-width:70%;
+	height:30%;
 	background-color:rgba(122,188,208,0.8);
 	color:#333;
 	padding:5px ;
 	text-align:center;
 	font-family: Bubbler One ,Arial ;
 	font-weight:600;
-	font-size:15px;
+	font-size:70%;
 
 }
 
@@ -561,4 +570,21 @@ footer .author {
 
 	float:none;
 	clear:both;
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+  .homecontainer, .container1 {
+    width: auto; /* The width is 100%, when the viewport is 800px or smaller */
+    box-sizing: border-box;
+    margin: 1%;
+    color: yellow;
+    padding: 2px;
+    margin: 2px;
+   
+  }
+
+
 }
